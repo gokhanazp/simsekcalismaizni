@@ -8,7 +8,7 @@ export const site = {
   whatsapp: "https://wa.me/905061240367",
   email: "info@simsekdanismanlik.com",
   address: "İstanbul, Türkiye",
-  url: "https://simsekdanismanlik.com",
+  url: "https://simsekcalismaizni.com",
 };
 
 export type NavItem = {
