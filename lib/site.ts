@@ -6,7 +6,7 @@ export const site = {
   phone: "0506 124 03 67",
   phoneHref: "tel:+905061240367",
   whatsapp: "https://wa.me/905061240367",
-  email: "info@simsekdanismanlik.com",
+  email: "info@simsekcalismaizni.com",
   address: "İstanbul, Türkiye",
   url: "https://simsekcalismaizni.com",
 };
