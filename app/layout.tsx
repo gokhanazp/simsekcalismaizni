@@ -49,7 +49,14 @@ const orgSchema = {
   telephone: "+905061240367",
   email: site.email,
   areaServed: "TR",
-  address: { "@type": "PostalAddress", addressLocality: "İstanbul", addressCountry: "TR" },
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Faruk Nafiz Çamlıbel Cd, Avrupa 1 No:5, Tahtakale",
+    addressLocality: "Avcılar",
+    addressRegion: "İstanbul",
+    postalCode: "34320",
+    addressCountry: "TR",
+  },
   priceRange: "₺₺",
 };
 

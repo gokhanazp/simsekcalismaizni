@@ -7,7 +7,7 @@ export const site = {
   phoneHref: "tel:+905061240367",
   whatsapp: "https://wa.me/905061240367",
   email: "info@simsekcalismaizni.com",
-  address: "İstanbul, Türkiye",
+  address: "Avrupa 1 No:5 Şimşek Mali Müşavirlik Ofisi, Tahtakale, Faruk Nafiz Çamlıbel Cd, 34320 Avcılar/İstanbul",
   url: "https://simsekcalismaizni.com",
 };
 

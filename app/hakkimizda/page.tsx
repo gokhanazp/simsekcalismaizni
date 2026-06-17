@@ -34,21 +34,34 @@ export default function Page() {
 
       {/* Hikaye */}
       <section className="py-20 sm:py-24">
-        <div className="mx-auto grid max-w-7xl gap-14 px-4 sm:px-6 lg:grid-cols-2 lg:items-center lg:px-8">
+        <div className="mx-auto grid max-w-7xl gap-14 px-4 sm:px-6 lg:grid-cols-2 lg:items-start lg:px-8">
           <Reveal>
-            <Eyebrow>Şimşek Danışmanlık</Eyebrow>
+            <Eyebrow>Şimşek Çalışma İzni Danışmanlık</Eyebrow>
             <h2 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight text-navy-900 sm:text-4xl">
-              Her başvuru özeldir, <span className="text-gold-gradient">çözümlerimiz de öyle.</span>
+              Güvenilir, şeffaf ve <span className="text-gold-gradient">sonuç odaklı danışmanlık.</span>
             </h2>
-            <div className="mt-6 space-y-4 text-lg leading-relaxed text-navy-600">
-              <p>
-                Şimşek Danışmanlık olarak çalışma izni, ikamet izni ve yabancı personel danışmanlığı
-                alanlarında uzun yıllardır hizmet vermekteyiz. Yüzlerce bireysel ve kurumsal müşterimizin
-                süreçlerini başarıyla sonuçlandırmanın verdiği tecrübe ile hareket ediyoruz.
+            <div className="mt-6 space-y-4 leading-relaxed text-navy-600">
+              <p className="text-lg">
+                Şimşek Çalışma İzni Danışmanlık olarak, yabancıların Türkiye'de yasal çalışma ve ikamet
+                süreçlerinde profesyonel danışmanlık hizmeti sunuyoruz.
               </p>
               <p>
-                Her başvurunun kendine özgü olduğunu biliyor, müşterilerimize özel çözümler üretiyoruz.
-                Amacımız süreçlerinizi hızlı, güvenilir ve mevzuata uygun şekilde sonuçlandırmaktır.
+                27 yılı aşkın mesleki tecrübemiz ve mevzuata hâkimiyetimizle; çalışma izni başvuruları,
+                ikamet izni işlemleri, ev hizmetleri personel başvuruları, şirketler için yabancı personel
+                izinleri ve başvuru sonrası takip süreçlerinde müşterilerimize güvenilir, şeffaf ve sonuç
+                odaklı destek sağlıyoruz.
+              </p>
+              <p>
+                Başvuru sürecinin her aşamasında gerekli evrakların hazırlanması, sistem başvurularının
+                yapılması, eksikliklerin giderilmesi ve kurumlarla olan yazışmaların takibi tarafımızca
+                titizlikle yürütülmektedir.
+              </p>
+              <p>
+                Amacımız; kişi ve firmaların mevzuata uygun, doğru ve hızlı şekilde işlem yapmasını sağlamak,
+                başvuru sürecinde oluşabilecek zaman kaybı ve hataların önüne geçmektir.
+              </p>
+              <p className="font-semibold text-navy-800">
+                Şimşek Çalışma İzni Danışmanlık olarak, güvenilir hizmet anlayışıyla yanınızdayız.
               </p>
             </div>
             <div className="mt-8">
