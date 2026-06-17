@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -34,21 +34,45 @@ export const metadata: Metadata = {
     title: `${site.name} — Çalışma ve İkamet İzni Danışmanlığı`,
     description:
       "27 yıllık tecrübeyle çalışma ve ikamet izni süreçlerinde uçtan uca danışmanlık.",
+    images: [{ url: "/images/og.png", width: 1200, height: 630, alt: site.name }],
   },
-  robots: { index: true, follow: true },
+  twitter: {
+    card: "summary_large_image",
+    title: `${site.name} — Çalışma ve İkamet İzni Danışmanlığı`,
+    description:
+      "27 yıllık tecrübeyle çalışma ve ikamet izni süreçlerinde uçtan uca danışmanlık.",
+    images: ["/images/og.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
   alternates: { canonical: site.url },
+  // Google Search Console doğrulaması (HTML yöntemi kullanılırsa kodu buraya):
+  // verification: { google: "GOOGLE_DOGRULAMA_KODU" },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0b1f3a",
+  width: "device-width",
+  initialScale: 1,
 };
 
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id": `${site.url}/#organization`,
   name: site.name,
+  alternateName: "Şimşek Çalışma İzni Danışmanlık",
   description:
     "Türkiye'de çalışma izni ve ikamet izni danışmanlığı. 27 yıllık tecrübe.",
   url: site.url,
+  logo: `${site.url}/images/logo.png`,
+  image: `${site.url}/images/og.png`,
   telephone: "+905061240367",
   email: site.email,
-  areaServed: "TR",
+  areaServed: { "@type": "Country", name: "Türkiye" },
   address: {
     "@type": "PostalAddress",
     streetAddress: "Faruk Nafiz Çamlıbel Cd, Avrupa 1 No:5, Tahtakale",
@@ -57,7 +81,14 @@ const orgSchema = {
     postalCode: "34320",
     addressCountry: "TR",
   },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    opens: "09:00",
+    closes: "18:00",
+  },
   priceRange: "₺₺",
+  knowsLanguage: ["tr", "en", "ar"],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
