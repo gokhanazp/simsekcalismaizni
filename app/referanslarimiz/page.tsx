@@ -18,6 +18,20 @@ const testimonials = [
   { name: "Maria S.", role: "Restoran İşletmecisi", country: "Rusya", text: "Türkiye'de iş kurma ve çalışma izni sürecimde baştan sona destek aldım. Sorularıma her zaman hızlı yanıt verdiler." },
   { name: "John P.", role: "Mühendis", country: "İngiltere", text: "Yurt dışından başvuru yaptım ve her şey uzaktan, sorunsuz halledildi. Süreç boyunca tek bir belirsizlik yaşamadım." },
   { name: "Fatima A.", role: "Öğrenci", country: "Fas", text: "Öğrenci ikamet iznim için başvurdum, çok hızlı ve ilgili davrandılar. Genç biri olarak süreci hiç stresli geçirmedim." },
+  { name: "Olena T.", role: "Grafik Tasarımcı", country: "Ukrayna", text: "Kısa dönem ikamet iznimi sorunsuz aldım. Randevudan evrak hazırlığına kadar her şeyi benim adıma takip ettiler, hiç yorulmadım." },
+  { name: "Mohammed A.", role: "İnşaat Proje Müdürü", country: "Ürdün", text: "Şirketimizin yabancı mühendis kadrosu için çalışma izinlerini onlar düzenledi. Mevzuata tam hâkimler, tek bir başvurumuz bile geri dönmedi." },
+  { name: "Elif Y.", role: "İşveren (Çocuk Bakıcısı)", country: "Türkiye", text: "Yabancı çocuk bakıcımız için çalışma izni aldık. SGK ve evrak işlerinin hepsini hallettiler; biz hiç uğraşmadık." },
+  { name: "Hassan R.", role: "Doktor", country: "Suriye", text: "Çalışma iznim reddedilmişti, onların yönlendirmesiyle eksikleri tamamlayıp yeniden başvurduk ve onaylandı. Gerçekten kurtarıcı oldular." },
+  { name: "Wei L.", role: "İthalat-İhracat", country: "Çin", text: "Türkiye'de yabancı ortaklı şirket kurdum. Şirket kuruluşu ve çalışma iznini birlikte planladılar, süreç beklediğimden hızlı ilerledi." },
+  { name: "Priya S.", role: "Yazılım Geliştirici", country: "Hindistan", text: "Çalışma izni uzatmamı zamanında yaptılar, hiçbir hak kaybı yaşamadım. İletişimleri çok hızlı, her sorumu aynı gün yanıtladılar." },
+  { name: "Ahmad N.", role: "Yatırımcı", country: "Irak", text: "Şirket ortağı olarak çalışma izni sürecim özel bir durumdu. Dosyamı titizlikle değerlendirip doğru stratejiyle sonuçlandırdılar." },
+  { name: "Sofia M.", role: "Üniversite Öğrencisi", country: "İtalya", text: "Öğrenci ikamet iznimde okul ve Göç İdaresi süreçlerini benim için koordine ettiler. Yabancı bir öğrenci için büyük rahatlık." },
+  { name: "Omar F.", role: "Aile İkamet İzni", country: "Mısır", text: "Eşim ve çocuklarım için aile ikamet izni başvurusunu yaptılar. Tüm aileyi ilgilendiren süreçte çok sabırlı ve özenliydiler." },
+  { name: "Kateryna B.", role: "İşveren (Ev Yardımcısı)", country: "Türkiye", text: "Evimizde çalışan yabancı personel için izin sürecini sıfırdan yönettiler. Şartları önceden analiz etmeleri çok işimize yaradı." },
+  { name: "James W.", role: "Emekli", country: "İngiltere", text: "Uzun dönem ikamet iznim için başvurdum. Şartları net açıkladılar, gereksiz hiçbir evrakla uğraştırmadılar. Çok memnunum." },
+  { name: "Nadia H.", role: "İK Uzmanı", country: "Fas", text: "Farklı ülkelerden gelen personelimiz için toplu çalışma izni başvurusu yaptık. Kurumsal bir firmaya yakışır bir takip ve raporlama sundular." },
+  { name: "Ali R.", role: "İşveren (Hasta Bakıcısı)", country: "Türkiye", text: "Babamın bakımı için yabancı hasta bakıcısı çalıştırıyoruz. Çalışma izni ve SGK işlemlerini eksiksiz yürüttüler, içimiz rahat." },
+  { name: "Elena V.", role: "Turizm Danışmanı", country: "Rusya", text: "Türkiye'de uzun süre kalmak için kısa dönem ikamet iznimi aldılar. Süreç şeffaftı, her adımda nerede olduğumuzu bildim." },
 ];
 
 const sectors = [
