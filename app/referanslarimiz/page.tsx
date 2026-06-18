@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Icon } from "@/components/Icon";
 import { Reveal } from "@/components/Reveal";
 import { ButtonPrimary, PageHero, SectionHeading } from "@/components/ui";
@@ -94,6 +95,30 @@ export default function Page() {
                 </figure>
               </Reveal>
             ))}
+
+            {/* "Siz de burada olun" CTA kartı */}
+            <Reveal delay={(testimonials.length % 3) * 90}>
+              <Link
+                href="/bize-ulasin"
+                className="group relative flex h-full flex-col justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-navy-800 via-navy-900 to-navy-950 p-7 text-center text-white shadow-soft transition-all hover:-translate-y-1 hover:shadow-lift"
+              >
+                <div className="bg-grid absolute inset-0 opacity-25" />
+                <div className="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full bg-gold-500/25 blur-2xl" />
+                <div className="relative">
+                  <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl border border-gold-500/30 bg-navy-800 text-gold-400">
+                    <Icon name="spark" className="h-7 w-7" />
+                  </span>
+                  <h3 className="mt-5 font-display text-xl font-bold">Siz de burada olun</h3>
+                  <p className="mt-3 leading-relaxed text-navy-300">
+                    Başarı hikâyenizi birlikte yazalım. Çalışma ve ikamet izni süreciniz için hemen bizimle iletişime geçin.
+                  </p>
+                  <span className="mt-6 inline-flex items-center gap-2 rounded-full bg-gold-500 px-6 py-3 font-bold text-navy-950 transition-colors group-hover:bg-gold-400">
+                    Bizimle İletişime Geçin
+                    <Icon name="arrow" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </span>
+                </div>
+              </Link>
+            </Reveal>
           </div>
         </div>
       </section>
